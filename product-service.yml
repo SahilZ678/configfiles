@@ -14,4 +14,4 @@ spring:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
 eureka:
   instance:
-    instanceId: product-service:${random.int}
+    instance-id: product-service:${random.int}
